@@ -12,7 +12,6 @@ const destroyBoxes = () => {
 };
 
 const createBoxes = (amount) => {
-  destroyBoxes();
   console.log(amount);
 
   const BASE_SIZE = 30;
