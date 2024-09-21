@@ -32,10 +32,10 @@ images.forEach(image => {
 
   const a = document.createElement('a');
   a.href = image.url;
-  a.textContent = image.url;
+  a.textContent = image.alt;
 
   const img = document.createElement('img');
-  img.src = image.src;
+  img.src = image.url;
   img.alt = 'Image';
 
   li.appendChild(a);
